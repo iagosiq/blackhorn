@@ -109,6 +109,13 @@ footer {
     background-color: #232325;
 }
 
+#wpp {
+    height: 3em;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
 main {
     display: block;
     margin: auto;
