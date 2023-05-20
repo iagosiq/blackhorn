@@ -42,8 +42,18 @@ header {
     height: 400px;
     background-image: url(../imagens/fundo.png);
     background-size: 90px;
-    border-bottom: solid #BAAE95;
-    border-top: solid #BAAE95;
+    border-bottom: 1px solid #BAAE95;
+    border-top: 1px solid #BAAE95;
+    padding-bottom: 60px;
+}
+footer {
+    background-color: #2A2A2C;
+    width: 100vw;
+    height: 100px;
+    background-image: url(../imagens/fundo.png);
+    background-size: 90px;
+    border-bottom: 1px solid #BAAE95;
+    border-top: 1px solid #BAAE95;
     padding-bottom: 60px;
 }
 
@@ -52,7 +62,7 @@ header {
     background-color: #232325;
     width: 100vw;
     margin: auto;
-    border-bottom: solid #BAAE95;
+    border-bottom: 1px solid #BAAE95;
 }
 
 .menu_button {
@@ -65,6 +75,7 @@ header {
     top: 100%;
     display: none;
     width: 100vw;
+    border-bottom: 1px solid #BAAE95;
 }
 
 .link {
@@ -79,6 +90,10 @@ header {
 .link1 {
     color: #BAAE95;
     text-decoration: none;
+}
+
+#ultima_op {
+    border-bottom: 1px solid #BAAE95;
 }
 
 .link:hover {
@@ -99,11 +114,18 @@ main {
     margin: auto;
     width: 80vw;
     font-family: 'Baskervville', serif;
+    font-size: 1em;
 }
 h1 {
     margin-top: 20px;
     margin-bottom: 20px;
     text-decoration: underline;
+}
+h2 {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: lighter;
 }
 p {
     text-indent: 2em;
