@@ -11,7 +11,7 @@ function abrir_menu(){
     if (options.style.display === 'none') {
         options.style.display = (options.style.display === 'block')
     }
-    else {
+    else if (options.style.display === 'block') {
         options.style.display = (options.style.display === 'none')
     }
 }
